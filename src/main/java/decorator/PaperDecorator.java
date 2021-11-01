@@ -14,6 +14,6 @@ public class PaperDecorator extends ItemDecorator{
     }
     @Override
     public String getDescription(){
-        return super.getDescription() + "+paper";
+        return super.getDescription() + "flowers with paper";
     }
 }
