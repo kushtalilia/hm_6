@@ -6,8 +6,7 @@ import java.util.List;
 
 public class PostDeliveryStrategy implements Delivery {
     @Override
-    public boolean deliver(List<Item> items) {
-        System.out.format("Deliver items: " + items);
-        return true;
+    public String deliver(List<Item> items) {
+        return "Deliver items: " + items;
     }
 }
